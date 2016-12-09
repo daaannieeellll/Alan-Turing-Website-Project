@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link type="text/css" rel="stylesheet" href="../css/style.css"/>
+<title>Contact</title>
+<meta charset="UTF-8"/>
+</head>
+<body>
+<header> <!--ALLEEN NAVIGATION BAR -->
+  <nav class="navigation_bar">
+      <ul class="menubar">
+      <li><a href="../index.html" class="NavBarItem">Home</a></li>
+      <li>
+        <ul class="dropdown" onclick="void(0)">
+         <li class="dropbutton">Stonebraker</li>
+         <li>
+           <ul class="dropdown-content">
+             <li><a href="../stonebraker/stonebraker.html" class="topItem">Stonebraker</a></li>
+             <li><a href="../stonebraker/ingres.html">Ingres</a></li>
+             <li><a href="../stonebraker/postgres.html">Postgres</a></li>
+             <li><a href="../stonebraker/students.html" class="bottomItem">Studenten</a></li>
+           </ul>
+         </li>
+        </ul>
+      </li>
+      <li>
+        <ul class="dropdown" onclick="void(0)">
+          <li class="dropbutton">Turing</li>
+          <li>
+            <ul class="dropdown-content">
+              <li><a href="../turing/turing.html" class="topItem">Turing</a></li>
+              <li><a href="../turing/award.html">De Turing Award</a></li>
+              <li><a href="../turing/publicaties.html">Publicaties</a></li>
+              <li><a href="../turing/winners.html">Winnaars</a></li>
+              <li><a href="../turing/facts.html" class="bottomItem">Feitjes</a></li>
+            </ul>
+          </li>      
+      </ul>
+      <li><a href="../contact/contact.html" class="NavBarItem">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+<main> <!--MAIN CONTENT OF PAGE-->
+  <a href="#" class="back-to-top"><img src="../media/images/double-arrow-up-512.png" alt="Arrow-Up" width="30px" height="30px"></a>
+  <div class="titlescreen">  
+    <p class="title">CONTACT</p>
+  </div>
+
+  <article class="welcometext">
+      <h2>Meer informatie?</h2>
+      <hr class="hr-contact"/>
+    <p><strong>Daniel:</strong> <em>daniel@osprey.ath.cx</em><br />
+      <strong>Celal:</strong> <em>celal_sagir@hotmail.com</em>
+    </p>
+    <p>
+      V4D, 2016-2017<br />
+      Docenten:<em> Melles C.L. / Aerts T.</em><br />
+      Dalton Lyceum Barendrecht
+    </p>
+    <form action="mailto:celal_sagir@hotmail.com; daniel@osprey.ath.cx?subject=Alan Turing Website" method="post" id="form" enctype="text/plain">
+    <fieldset>
+      <legend>Feedback</legend>
+    Naam:<br/>
+    <input type="text" placeholder="Celal Sagir" required="required" name="Naam" />
+      <br />
+       Woonplaats:<br/>
+    <input type="text" placeholder="Rotterdam, ZH" name="Woonplaats" />
+      <br/>Geslacht:
+      <input type="radio" name="Geslacht" value="Man"/>Man 
+      <input type="radio" name="Geslacht" value="Vrouw"/>Vrouw  
+      <input type="radio" name="Geslacht" value="Anders"/>Anders 
+      <br />
+  <textarea placeholder="Wat vind ik van de website" required="required" name="Feedback" rows="5" cols="22"></textarea>
+      <br/> Het cijfer dat ik deze website geef, is een 
+      <select name="Cijfer">
+        <option value=" 10">10</option>
+        <option value=" 9">9</option>
+        <option value=" 8">8</option>
+        <option value=" 7">7</option>
+        <option value=" 6">6</option>
+        <option value=" 5">5</option>
+        <option value=" 4">4</option>
+        <option value=" 3">3</option>
+        <option value=" 2">2</option>
+        <option value=" 1">1</option>
+      </select>
+      <br />
+      <input type="submit" value="Verstuur"/>
+      <input type="reset" />
+    </fieldset>
+  </form>
+  </article> 
+</main>
+<footer ><!--FOOTER-->
+  <p>&copy; 2016 Cel&acirc;l Sagir en Daniel Kuiper</p>
+</footer>
+</body>
+</html>
